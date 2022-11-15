@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-page {
+    background-image: url(BG.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 386px;
+    padding-top: 178px;
+    /* padding: 178px 0px 0px 490px; */
+}
+
+.caption {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: white;
+}
+
+.login-card__title {
+    padding-bottom: 40px;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #eae6ef;
+}
+
+.login__label {
+    margin-bottom: 12px;
+   /* не работает маржин */
+}
+
+.email__label {
+    margin-bottom: 120px;
+}
+
+.login-card-wrapper {
+    margin-bottom: 24px;
+    /* не работает маржин */
+    position: relative;
+}
+
+.input {
+    display: block;
+    min-height: 48px;
+    min-width: 386px;
+    border: 1px solid #3F3B4C;
+    background-color: #1E1B2A;
+    border-radius: 8px;
+}
+
+.input::placeholder {
+    padding: 12px 0px 12px 56px;
+}
+
+.login-card__email {
+    position: absolute;
+    top: 37px;
+    left: -25px;
+} 
+
+.login-card__password {
+    position: absolute;
+    top: 33px;
+    left: -55px;
+  } 
+
+.input:hover {
+    background-color: #201C2D;
+ 
+}
+  
+.input:focus {
+    border: 1px solid #7B14FF;
+}
+  
+.input:focus ~ .login-card__image {
+    color: #7B14FF;
+}
+
+.button--warning {
+    background-color: #7b14ff;
+    border-radius: 8px;
+    min-height: 48px;
+    min-width: 386px;
+    border: 0px;
+}
+
+.button__text {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.button {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.login__button{
+    background: #7B14FF;
+}
+  
+.button--warning:hover {
+    background: #8647E0;;
+}
+  
+.button--warning:active {
+    background:  #4400A5;
+}
+
+.terms {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #90859c;
+    text-align: center;
+}
+
+.terms-link {
+color: #90859c;
+}
