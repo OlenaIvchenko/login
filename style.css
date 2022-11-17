@@ -161,19 +161,17 @@ color: inherit;
 text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 418px) {
     
     .login {
-        margin-right: 16px;
-        margin-left: 16px;
-        position: relative;
-        width: 100%;
-        padding-top: (238 / 193) * 100%;
+       margin: 72px 16px;
     }
 
     .login__content {
-        position: absolute;
-        top: 0px;
+        min-width: 100%;
     }
 
+    .button {
+        min-width: 100%;
+    }
 }
