@@ -161,7 +161,7 @@ color: inherit;
 text-decoration: underline;
 }
 
-@media screen and (max-width: 418px) {
+@media screen and (max-width: 418gipx) {
     
     .login {
        margin: 72px 16px;
